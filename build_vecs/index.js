@@ -1,0 +1,2 @@
+let NK = require('nk-vector')
+NK.train(50, 'E:/Project Extract_keyword_Plant/onehot_VegetableReqPython_corpus_processed.json', 'E:/Project Extract_keyword_Plant/windows_VegetableReqPython_corpus_processed.txt', 'E:/Project Extract_keyword_Plant/data_vec_VegetableReqPython_corpus_processed.json')

@@ -1,0 +1,2 @@
+let NK = require('nk-vector')
+NK.create_one_hot('E:/Project Extract_keyword_Plant/VegetableReqPython_corpus_processed.txt', 'E:/Project Extract_keyword_Plant/onehot_VegetableReqPython_corpus_processed.json')
