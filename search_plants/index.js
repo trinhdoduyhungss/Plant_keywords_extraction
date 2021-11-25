@@ -3,7 +3,7 @@ let Kw = require('./extract_keywords.js')
 let data_plants = fs.readFileSync('data_kws.json', 'utf8')
 data_plants = JSON.parse(data_plants);
 function compareArray(arr1, arr2) {
-    if (arr1.length < arr2) {
+    if (arr1.length < arr2.length) {
         let difference = arr2.filter(x => !arr1.includes(x));
         return difference.length / arr2.length;
     } else {
